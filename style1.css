@@ -1,0 +1,85 @@
+body {
+  font-family: Arial;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left {
+    left: 0; 
+    background-color: #1c0a0a8f;    
+}
+.right {
+    right: 0;
+    background-color: rgba(49, 103, 124, 0.375);
+}
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.tab{
+    box-shadow: -8px -8px 15px rgba(42, 8, 8, 0.16), 5px 5px 15px rgba(108, 50, 56, 0.552);
+   
+    background: #4215158f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+}
+input, .btu{
+    border: 0;
+    outline: 0;
+    width: 250px;
+    height: 35px;
+    border-radius: 30px;
+    box-shadow: -8px -8px 15px rgba(1, 13, 17, 0.403), 5px 5px 15px rgba(7, 83, 106, 0.2);
+    background: transparent;
+    font-size: 15px;
+    color: #040000;
+    cursor: pointer;
+    margin: 10px;
+    text-indent: 10px;
+}
+input[type=file]{
+    padding-top: 5px;
+}
+input[type=radio]{
+    width: 20px;
+    height: 20px;
+}
+.btu{
+    width: 150px;
+    font-size: medium;
+}
+.btu:hover{
+    width: 200px;
+    background-color: rgb(51, 27, 33);
+    box-shadow:  5px 5px 15px rgba(7, 83, 106, 0.2),-8px -8px 15px rgba(1, 13, 17, 0.403),;  
+}
+.title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: black;   
+    font-size: 20px;
+    padding-top: 70px;
+    text-decoration-line: underline;  
+    
+
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: black;  
+}
+  
+  
